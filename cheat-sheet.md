@@ -18,6 +18,15 @@ docker run -p 8081:8081 -t edwarddunn/java-code-test-runner:latest
 - ```-t``` flag is a tag
 - ```:latest``` refers to the latest image version
 
+See Docker containers running
+```
+docker ps
+```
+Stop Docker container
+```
+docker stop [container id]
+```
+
 ### Docker Swarm
 
 Start swarm
