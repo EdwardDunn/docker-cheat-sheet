@@ -36,7 +36,7 @@ Stop container
 docker stop [container id]
 ```
 
-Docker images running
+Images running
 ```
 docker image ls
 ```
