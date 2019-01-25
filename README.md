@@ -6,6 +6,8 @@ List of example docker files and useful docker commands
 - Run container
 - See containers running
 - Stop container
+- See images running
+- Remove image
 - Docker Swarm
 - See services running
 
