@@ -10,6 +10,15 @@ docker build -t dunn/ubuntu1604java8junit4:v1 .
 ```
 - don't forget the dot at the end
 
+Docker pull
+```
+docker pull [OPTIONS] NAME[:TAG|@DIGEST]
+
+e.g. 
+
+docker pull edwarddunn/java-code-test-runner:latest
+```
+
 Docker run example 
 ```
 docker run -p 8081:8081 -t edwarddunn/java-code-test-runner:latest
@@ -18,13 +27,23 @@ docker run -p 8081:8081 -t edwarddunn/java-code-test-runner:latest
 - ```-t``` flag is a tag
 - ```:latest``` refers to the latest image version
 
-See Docker containers running
+See containers running
 ```
 docker ps
 ```
-Stop Docker container
+Stop container
 ```
 docker stop [container id]
+```
+
+Docker images running
+```
+docker image ls
+```
+
+Remove image
+```
+docker rmi [image name]
 ```
 
 ### Docker Swarm
